@@ -21,15 +21,17 @@
 body { 
 	font-family: RalewayWF;
 	line-height: 1.6;
-    margin-inline: auto;
-    width: clamp(16rem, 95vw, 85rem);
-    padding-inline: clamp(1.4rem, 1.5rem, 2rem);
+    margin-inline: 3em;
+    margin-block: 0;
+    padding-inline: 4em;
+    padding-block: 2em;
 	}
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     body {
-        margin: 0 3em 0 3em;
-        padding: 2em 4em;
+        margin-inline: auto;
+        width: clamp(16rem, 95vw, 85rem);
+        padding-inline: clamp(1.4rem, 1.5rem, 2rem);
         }
     }
 
